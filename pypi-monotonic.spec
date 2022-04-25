@@ -4,7 +4,7 @@
 #
 Name     : pypi-monotonic
 Version  : 1.6
-Release  : 47
+Release  : 48
 URL      : https://files.pythonhosted.org/packages/ea/ca/8e91948b782ddfbd194f323e7e7d9ba12e5877addf04fb2bf8fca38e86ac/monotonic-1.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ea/ca/8e91948b782ddfbd194f323e7e7d9ba12e5877addf04fb2bf8fca38e86ac/monotonic-1.6.tar.gz
 Summary  : An implementation of time.monotonic() for Python 2 & < 3.3
@@ -14,9 +14,6 @@ Requires: pypi-monotonic-license = %{version}-%{release}
 Requires: pypi-monotonic-python = %{version}-%{release}
 Requires: pypi-monotonic-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: monotonic
-Provides: monotonic-python
-Provides: monotonic-python3
 
 %description
 monotonic
@@ -64,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641455940
+export SOURCE_DATE_EPOCH=1650914412
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
