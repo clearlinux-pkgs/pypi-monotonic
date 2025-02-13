@@ -4,7 +4,7 @@
 #
 Name     : pypi-monotonic
 Version  : 1.6
-Release  : 62
+Release  : 63
 URL      : https://files.pythonhosted.org/packages/ea/ca/8e91948b782ddfbd194f323e7e7d9ba12e5877addf04fb2bf8fca38e86ac/monotonic-1.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ea/ca/8e91948b782ddfbd194f323e7e7d9ba12e5877addf04fb2bf8fca38e86ac/monotonic-1.6.tar.gz
 Summary  : An implementation of time.monotonic() for Python 2 & < 3.3
